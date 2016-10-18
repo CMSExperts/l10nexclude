@@ -1,0 +1,17 @@
+{
+    "name": "cmsexperts/l10nexclude",
+    "type": "typo3-cms-extension",
+    "description": "A helper extension to define",
+    "license": ["GPLv2+"],
+    "keywords": ["TYPO3 CMS", "DataHandler", "Localization", "l10n"],
+    "require": {
+        "php": ">5.5",
+        "typo3/cms": ">6.2.0 <9.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CMSExperts\\L10nexclude\\": "Classes/"
+        }
+    }
+}
+
